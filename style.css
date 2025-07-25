@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.hero-section {
+  background-color: hsl(240, 18%, 77%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-span-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.span-btn {
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.paragraph {
+  color: rgba(78, 75, 75, 0.715);
+  font-size: 12px;
+}
+
+.div-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.text-div {
+  color: hsl(240, 38%, 20%);
+  max-width: 250px;
+  font-size: 20px;
+}
+
+.img-btn {
+  width: 45%;
+}
